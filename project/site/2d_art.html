@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>J.M. Designs</title>
+        <title>Illustrations - J.M. Designs</title>
+        <link href="css/my_site.css" rel="stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet">
     </head>
     
     <body>
@@ -10,11 +12,13 @@
             <h1><a href="home.html">J.M. Designs</a></h1>
         </div>
         
+        <div id="page">
         <div id="nav">
             <ul>
-                <li><a href="2d_art.html">Illustrations/Logos</a></li>
-                <li><a href="3d_art.html">3D Models</a></li>
-                <li><a href="music.html">Music</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="2d_art.html">2D Art</a></li>
+                <li><a href="3d_art.html">3D Art</a></li>
+                <!--<li><a href="music.html">Music</a></li> -->
                 <li><a href="game_projects.html">Game Projects</a></li>
                 <li><a href="resume.html">Resume</a></li>
             </ul>
@@ -22,10 +26,35 @@
         
         <div class="main">
             <h2>2D Art</h2>
-            <p>Below is a gallery of my 2D art, including illustrations and logos</p>
+            <p>Below is a gallery of my 2D illustrations</p>
+            
+            <div id="2dgallery">
+                <table>
+                    <tr>
+                        <th>
+                            <a href="img/illustrations/Allikat.png" data-lightbox="photo" data-title="Allikat"><img src="img/illustrationThums/thum_Allikat.jpg" alt="Alley"></a>
+                            <a href="img/illustrations/Ms%20Fortune.png" data-lightbox="photo" data-title="Ms. Fortune"><img src="img/illustrationThums/thum_Fortune.jpg" alt="Alley"></a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="img/illustrations/Painwheel.png" data-lightbox="photo" data-title="Painwheel"><img src="img/illustrationThums/thum_Painwheel.jpg" alt="Alley"></a>
+                            <a href="img/illustrations/Peacock.png" data-lightbox="photo" data-title="Peacock"><img src="img/illustrationThums/thum_Peacock.jpg" alt="Alley"></a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="img/illustrations/Squigly.png" data-lightbox="photo" data-title="Squigly"><img src="img/illustrationThums/thum_Squigly.jpg" alt="Alley"></a>
+                            <a href="img/illustrations/Goo_Fortune.png" data-lightbox="photo" data-title="Goo & Ms. Fortune"><img src="img/illustrationThums/thum_Goo.jpg" alt="Alley"></a>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            
+            <script src="js/lightbox-plus-jquery.js"></script>
         </div>
         
-        <div id="2dgallery">
+        
         </div>
         
     </body>

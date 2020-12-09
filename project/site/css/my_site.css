@@ -33,7 +33,6 @@
     margin-left: 20px;
 }
 
-
 /* nav styles */
 
 #nav{
@@ -93,6 +92,8 @@
     margin: 0px 0px;
 }
 
+/* categories styles */
+
 #categories{
     display: block;
 }
@@ -124,6 +125,8 @@
     margin: -10px;
 }
 
+/* resume styles */
+
 #resume dt{
     font-family: Kanit; 
     margin-bottom: 1em;
@@ -132,4 +135,10 @@
 #resume dd{
     margin-bottom: 1em;
     font-family: sans-serif;
+}
+
+#2dgallery th img{
+    width: 384px;
+    border: solid black 2px;
+    margin: 0px;
 }
